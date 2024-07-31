@@ -1,0 +1,147 @@
+.element3-container{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    position: relative;
+    top: -130px;
+}
+
+.element3-container .mini-container{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.element3-container .mini-container .box{
+    width: 90%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.element3-container .mini-container .box .card{
+    width: 32%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    border: none;
+}
+
+.element3-container .mini-container .box .card .p{
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.element3-container .mini-container .h1{
+    font-size: 25px;
+    color: gray;
+    width: 20%;
+    height: 70px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.element3-container .mini-container .box .card h1{
+    color: #333D4B;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:1025px) {
+    .element3-container{
+        height: 400px !important;
+    }
+    .element3-container .mini-container{
+        width: 90%;
+        height: 100%;
+    }
+    .element3-container .mini-container .box{
+        width: 90%;
+        height: 75%;    
+    }
+    .element3-container .mini-container .box .card{
+        width: 32%;
+        height: 100%;
+    }
+    .element3-container .mini-container .box .card .p{
+        height: 40%;
+    }
+    .element3-container .mini-container .box .card .p p{
+        font-size: 15px;
+    }
+    .element3-container .mini-container .box .card h1{
+        font-size: 25px;
+    }
+    .element3-container .mini-container .h1{
+        font-size: 25px;
+        width: 40%;
+        height: 80px;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:600px) {
+    .element3-container{
+        height: 900px !important;
+    }
+    .element3-container .mini-container{
+        width: 90%;
+        height: 100%;
+    }
+    .element3-container .mini-container .box{
+        width: 100%;
+        height: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .element3-container .mini-container .box .card{
+        width: 90%;
+        height: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .element3-container .mini-container .box .card .p{
+        position: relative;
+        top: -20px;
+        height: 40%;
+    }
+    .element3-container .mini-container .box .card .p p{
+        font-size: 11px;
+    }
+    .element3-container .mini-container .h1{
+        font-size: 25px;
+        width: 100%;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

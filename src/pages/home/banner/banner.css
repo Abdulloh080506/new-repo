@@ -1,0 +1,121 @@
+.banner-container{
+    height: 520px;
+}
+
+.banner-mini-container{
+    width: 95%;
+    height: 100%;
+    background-image: url('../../../assets/images/Bitmap.png');
+    margin: auto;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.banner-components{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-mini-components{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:flex-start;
+}
+
+.banner-mini-components h1{
+
+    font-size: 70px;
+    color: white;
+}
+
+.banner-mini-components p{
+    font-size: 19px;
+    color:gray;
+}
+
+.banner-mini-components button{
+    width: 200px;
+    height: 45px;
+    font-size: 15px;
+    border: none;
+    border-radius:6px;
+    color:white;
+    background-color: #0E8784;
+}
+
+@media (max-width:1025px){
+    .banner-container{
+        width: 100%;
+        height: 30vh;
+    }
+
+    .banner-mini-container{
+        width: 95%;
+        height: 100%;
+    }
+
+    .banner-components{
+        width: 90%;
+        height: 100%;
+    }
+
+
+    .banner-mini-components h1{
+        width: 54%;
+        font-size: 45px;
+    }
+    .banner-mini-components h6{
+        width: 80%;
+        font-size: 14px;
+    }
+}
+
+@media (max-width:600px){
+    .banner-container{
+        width: 100%;
+        height: 30vh;
+        
+    }
+
+    .banner-mini-container{
+        width: 95%;
+        height: 100%;
+        background-image: url('../../../assets/images/Bitmap.png');
+        margin: auto;
+        background-size: cover;
+        border-radius: 10px;
+    }
+
+    .banner-mini-components h1{
+        width: 70%;
+        font-size: 25px;
+    }
+    .banner-mini-components p{
+        width: 70%;
+        font-size: 7px;
+    }
+    .banner-mini-container{
+        width: 95%;
+        height: 100%;
+        background-size: cover;
+    }
+    .banner-components{
+        width: 90%;
+        height: 100%;
+    }
+
+
+
+    .banner-mini-components button{
+        width: 100px;
+        height: 30px;
+        font-size: 12px;
+        font-size: 10px;
+    }
+}

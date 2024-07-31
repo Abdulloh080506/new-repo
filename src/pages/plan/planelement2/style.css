@@ -1,0 +1,167 @@
+.element2-container {
+  width: 100%;
+  height: 650px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+}
+
+.element2-container .mini-container {
+  width: 95%;
+  height: 85%;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  background-color: blue;
+}
+
+.left-sidebar {
+  width: 30%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(175, 175, 175);
+}
+
+.right-sidebar{
+  width: 55%;
+  height: 100%;
+  background-color: orange;
+}
+
+.accordion{
+  width: 100%;
+  height: 12%;
+  background-color: white;
+  border: none;
+}
+
+.mini-accordion{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.accordion svg{
+  color: #0E8784;
+  font-size: 25px;
+}
+
+.mini-accordion h1{
+  font-size: 30px;
+  color: gray;
+  font-weight: 800;
+}
+
+.accordion-components{
+  display: none;
+}
+
+.accordion-cards{
+  width: 31%;
+  height: 90%;
+  background-color: rgb(216, 216, 216);
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.accordion-cards:hover {
+  background-color: #0E8784;
+  .h3{
+    color: white;
+  }
+  .p{
+    color: white;
+  }
+}
+
+.accordion-cards h3{
+  font-size: 25px;
+  font-weight: 800;
+  color: #333D4B;
+  position: relative;
+  left: 20px;
+}
+
+.accordion-cards p{
+  width: 70%;
+  font-size: 12px;
+  text-align: start;
+  color: #83888F;
+  position: relative;
+  left: 20px;
+}
+
+
+.accordion-components.is-open{
+  display: block;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.accordion-components.is-open2{
+  display: block;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.left-sidebar-box {
+  width: 60%;
+  height: 20%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.254);
+}
+
+.left-sidebar-box .h4 {
+  color: rgba(128, 128, 128, 0.437);
+  font-weight: 800;
+}
+
+.element2-container
+  .mini-container
+  .left-sidebar
+  .left-sidebar-box
+  .h5:nth-child(2) {
+  color: gray;
+  font-weight: 800;
+}
+
+
+
+.element2-container .mini-container .left-sidebar .left-sidebar-box:hover {
+  color: red;
+}
+
+.show:focus{
+  outline: unset !important;
+}
+.accordion-button:focus{
+  outline: unset !important;
+  background-color: black !;
+  border: none !important
+}
+.accordion-collapse:focus{
+  outline: unset !important;
+  background-color: black !;
+  border: none !important
+} 
+.accordion-flush{
+ 
+}

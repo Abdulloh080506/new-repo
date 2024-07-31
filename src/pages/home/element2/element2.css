@@ -1,0 +1,226 @@
+.element2-container {
+  width: 100%;
+  height: 500px;
+}
+
+.element2-mini-container {
+  width: 95%;
+  height: 100%;
+  margin: auto;
+  background-color: #2e3e3d;
+  border-radius: 10px;
+}
+
+.cards-texts{
+  text-align: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+}
+
+.element2-mini-container .yozuvlar {
+  width: 50%;
+  height: 40%;
+  text-align: center;
+  margin: auto;
+  position: relative;
+  top: 120px;
+}
+
+
+.yozuvlar p {
+  position: relative;
+  top: 20px;
+  color: gray;
+}
+
+.yozuvlar h1 {
+  color: white;
+}
+
+.element2-cards {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.element2-cards .cards {
+  width: 25%;
+  height: 100%;
+  background-color: #0e8784;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  margin-top: 280px;
+}
+
+.cards p,
+.cards h4 {
+  position: relative;
+  top: 40px;
+}
+
+.cards p {
+  width: 70%;
+  font-size: 15 px;
+  color: rgb(225, 225, 225);
+}
+
+.cards h4 {
+
+  font-size: 30px;
+  color: white;
+}
+
+@media (max-width: 1025px) {
+  .element2-container {
+    width: 100%;
+    height: 400px !important;
+  }
+  .element2-mini-container {
+    width: 95%;
+    height: 90%;
+    margin: auto;
+    background-color: #2e3e3d;
+    border-radius: 10px;
+  }
+  .element2-mini-container .yozuvlar {
+    width: 50%;
+    height: 20%;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    top: 50px;
+  }
+
+  .element2-cards {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .element2-cards .cards {
+    width: 25%;
+    height: 100%;
+    background-color: #0e8784;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+    top:  0px;
+  }
+
+  .cards p,
+.cards h4 {
+  position: relative;
+  top: 0;
+}
+
+.cards p {
+  width: 70%;
+  font-size: 10px;
+  color: white;
+  position: relative;
+  top: 20px;
+}
+
+
+.cards h4 {
+  position: relative;
+  top: 20px;
+  font-size: 18px;
+  color: white;
+}
+ 
+
+.cards svg{
+ width: 50px;
+ height: 50px;
+}
+
+}
+
+
+
+
+
+
+@media (max-width:600px){
+  .element2-container {
+    width: 100%;
+    height: 300px;
+  }
+  .element2-mini-container {
+    width: 95%;
+    height: 80%;
+    margin: 0;
+    background-color: #2e3e3d;
+    border-radius: 10px;
+  }
+  .element2-cards {
+    width: 100%;
+    height: 300px;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  .element2-cards .cards {
+    width: 90%;
+    height: 30%;
+    background-color: #0e8784;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 0;
+  }
+  .element2-cards .cards svg{
+    width: 35px;
+    height: 35px;
+  }
+  .element2-mini-container .yozuvlar {
+    width: 50%;
+    height: 30%;
+    text-align: center;
+  }
+  .element2-mini-container .yozuvlar h1{
+    font-size: 20px;
+  }
+
+  .element2-mini-container .yozuvlar p{
+    font-size: 12px;
+    position: relative;
+    top: 0px;
+  }
+  .cards-texts{
+    width: 50%;
+    height: 100%;
+    text-align: start;
+  }
+  .cards-texts h4{
+    width: 100%;
+    font-size: 14px;
+    position: relative;
+    top: 5px;
+  }
+  .cards-texts p{
+    font-size: 10px;
+    width: 100%;
+    position: relative;
+    top: 5px;
+  }
+}
