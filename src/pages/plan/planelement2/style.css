@@ -4,7 +4,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: red;
 }
 
 .element2-container .mini-container {
@@ -71,16 +70,6 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: flex-start;
-}
-
-.accordion-cards:hover {
-  background-color: #0E8784;
-  .h3{
-    color: white;
-  }
-  .p{
-    color: white;
-  }
 }
 
 .accordion-cards h3{
